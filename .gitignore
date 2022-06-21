@@ -1,0 +1,15 @@
+node_modules/
+public/
+.hugo_build.lock
+static/img/screenshots/1_nearbyevcharging_interface_mobile.png
+static/img/screenshots/2_nearbyevcharging_interface_mobile_details.png
+static/img/screenshots/3_nearbyevcharging_interface_mobile_timer.png
+static/img/screenshots/4_nearbyevcharging_interface_tablet.png
+static/img/screenshots/5_nearbyevcharging_interface_tablet_details.png
+static/img/screenshots/6_nearbyevcharging_interface_tablet_solar.png
+static/img/screenshots-small/1_nearbyevcharging_interface_mobile.png
+static/img/screenshots-small/2_nearbyevcharging_interface_mobile_details.png
+static/img/screenshots-small/3_nearbyevcharging_interface_mobile_timer.png
+static/img/screenshots-small/4_nearbyevcharging_interface_tablet.png
+static/img/screenshots-small/5_nearbyevcharging_interface_tablet_details.png
+static/img/screenshots-small/6_nearbyevcharging_interface_tablet_solar.png

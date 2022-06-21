@@ -1,0 +1,17 @@
+baseURL = ""
+relativeURLs = true
+defaultContentLanguage = 'en'
+languageCode = "en-en"
+title = "nearbyevcharging - Soak up the sun ☀️🚘 - Very easily."
+
+[site]
+  [params]
+  description = "nearbyevcharging ermöglicht es Elektrovehicles mit möglichst viel selbsterzeugten Solarstrom zu laden."
+
+[minify]
+  disableSVG = true
+  disableHTML = true
+
+[security]
+  [security.funcs]
+    getenv = ["SLACK_INVITE_URL"]

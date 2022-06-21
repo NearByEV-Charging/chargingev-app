@@ -1,0 +1,4 @@
+{{ $group := .Get "group" }}
+<p class="products group-{{$group}}">
+    {{ delimit (index .Site.Data.brands $group) " • " }}
+</p>

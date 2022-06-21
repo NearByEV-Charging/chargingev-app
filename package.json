@@ -1,0 +1,28 @@
+{
+  "name": "nearbyevcharging.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"hugo -d public",
+    "start":"hugo server --watch",
+     "deploy":"hugo -d public && cd public && git add --all && git commit -m \"deploy\" && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naltatis/nearbyevcharging.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naltatis/nearbyevcharging.com/issues"
+  },
+  "homepage": "https://github.com/naltatis/nearbyevcharging.com#readme",
+  "dependencies": {
+    "prettier-plugin-go-template": "0.0.10"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
