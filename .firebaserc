@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "nearby-ev-charging"
+    "dev": "charging-ev-app-dev",
+    "default": "charging-ev-app-dev"
   }
 }
