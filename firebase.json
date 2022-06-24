@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "target": "hosting",
-    
+    "target":"chargingev",
     "public": "public",
     "ignore": [
       "firebase.json",
