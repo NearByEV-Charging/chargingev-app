@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "nearby-ev-charging"
+  },
+  "targets": {
+    "nearby-ev-charging": {
+      "hosting": {
+        "chargingevprod": [
+          "nearby-ev-charging"
+        ]
+      }
+    }
   }
 }
