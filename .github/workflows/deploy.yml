@@ -1,12 +1,10 @@
-# Firebase Deploy by github actions
-
+name: firebase deploy
 
 on:
   workflow_dispatch:
   push:
     branches:
       - master # Set a branch to deploy
-
 
 jobs:
   deploy:
