@@ -17,5 +17,5 @@ jobs:
       - uses: ryank90/action-hugo-firebase-deploy@master
         with:
           firebase-token: ${{ secrets.FIREBASE_TOKEN }}
-          alias: ${{ alias }} // Optional
+          alias: "charging-ev-app-dev" # Optional
           hugo-params: -D --minify
