@@ -5,8 +5,8 @@
   "targets": {
     "nearby-ev-charging": {
       "hosting": {
-        "chargingevprod": [
-          "nearby-ev-charging"
+        "prod": [
+          "charging"
         ]
       }
     }
