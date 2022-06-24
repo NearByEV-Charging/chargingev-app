@@ -1,16 +1,23 @@
 # Firebase Deploy by github actions
 
-on: [push]
-name: Deploy Hugo to Firebase
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master # Set a branch to deploy
+
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v1
-      with:
-        submodules: true
-    - uses: ryank90/action-hugo-firebase-deploy@master
-      with:
-        firebase-token: ${{ secrets.FIREBASE_TOKEN }}
-        alias: ${{ alias }} // Optional
-        hugo-params: -D 
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+      - uses: ryank90/action-hugo-firebase-deploy@master
+        with:
+          firebase-token: ${{ secrets.FIREBASE_TOKEN }}
+          alias: ${{ alias }} // Optional
+          hugo-params: -D --minify
