@@ -1,6 +1,6 @@
 # Soak up the sun. Very easily.
 
-nearbyevcharging has set out to optimize sustainability when charging our electric fahrzeuge. In addition, nearbyevcharging enables charging with as much self-Generated solar power as possible. In most cases, this is even possible without further changes to the existing house electrical installation.
+nearbyevcharging has set out to optimize sustainability when charging our electric Vehicle. In addition, nearbyevcharging enables charging with as much self-Generated solar power as possible. In most cases, this is even possible without further changes to the existing house electrical installation.
 
 ---
 
@@ -53,7 +53,7 @@ And something else can be nearbyevcharging: if supported battery storage is avai
 {{< infobox-content group="PVBattery">}}
 {{< /infobox-entry >}}
 
-{{< infobox-entry title="Vehicles" img="img/nearbyevcharging-illu-fahrzeuge.svg" >}}
+{{< infobox-entry title="Vehicles" img="img/nearbyevcharging-illu-Vehicle.svg" >}}
 {{< infobox-content group="Vehicles">}}
 {{< /infobox-entry >}}
 {{< /infobox >}}
