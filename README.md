@@ -1,7 +1,7 @@
 # nearbyevcharging website
 
 
-## Local Setup
+## Local Development
 ```
 hugo server -D
 ```
